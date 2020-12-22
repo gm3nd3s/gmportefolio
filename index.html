@@ -4,75 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <title>Portefólio Fotografia Gonçalo Mendes</title>
 </head>
 <body>
     <header>
-        <a href="https://gmportfolio.vercel.app">Gonçalo Mendes Fotografia</a>
+        <a href="#" onClick="scrollToSection('#top')">Gonçalo Mendes Fotografia</a>
         <nav class="box">
-            <a href="#retrato">Retrato</a>
-            <a href="#auto">Auto</a>
-            <a href="#paisagens">Paisagens</a>
-            <a href="#projetos">Projetos</a>
+            <a href="#" onClick="scrollToSection('#retrato')">Retrato</a>
+            <a href="#" onClick="scrollToSection('#auto')">Auto</a>
+            <a href="#" onClick="scrollToSection('#paisagens')">Paisagens</a>
+            <a href="#" onClick="scrollToSection('#projetos')">Projetos</a>
         </nav>
     </header>
-        <br/> 
-        <div class="images1" id="retrato">
-        <h2>Retrato</h2>
-        
-        <img title= "Rute" src="Images/Retrato/IMG_7718-Editar.JPG">
-        <img title= "Eliana" src="Images/Retrato/IMG_8148.JPG">
-        <img title= "Ana Raquel" src="Images/Retrato/A.raqueeel.JPG">
-        <img title= "Ana Raquel" src="Images/Retrato/EDITADA.JPG">
-        <img title= "Eliana" src="Images/Retrato/IMG_8231.JPG"style="width: 40%;">
-        <img title= "Ana Beatriz" src="Images/Retrato/ana beatriz e flor edit 1.JPG"style="width: 40%;">
-        
-     
-        
+
+    <main id="top">
+        <div class="images1 section" id="retrato">
+            <h2>Retrato</h2>
+
+            <a data-fancybox="retrato" class="boxElements" href="Images/Retrato/IMG_7718-Editar.JPG">
+                <img src="Images/Retrato/IMG_7718-Editar.JPG" alt="Rute" title="Rute">
+            </a>
+            <a data-fancybox="retrato" class="boxElements" href="Images/Retrato/IMG_8148.JPG">
+                <img src="Images/Retrato/IMG_8148.JPG" alt="Eliana" title="Eliana">
+            </a>
+            <a data-fancybox="retrato" class="boxElements" href="Images/Retrato/Araqueeel.JPG">
+                <img src="Images/Retrato/Araqueeel.JPG" alt="Eliana" title="Ana Raquel">
+            </a>
+            <a data-fancybox="retrato" class="boxElements" href="Images/Retrato/EDITADA.JPG">
+                <img src="Images/Retrato/EDITADA.JPG" alt="Eliana" title="Ana Raquel">
+            </a>
+            <a data-fancybox="retrato" class="boxElements" href="Images/Retrato/IMG_8231.JPG">
+                <img src="Images/Retrato/IMG_8231.JPG" alt="Eliana" title="Eliana">
+            </a>
+            <a data-fancybox="retrato" class="boxElements" href="Images/Retrato/ana_beatriz_e_flor.JPG">
+                <img src="Images/Retrato/ana_beatriz_e_flor.JPG" alt="Eliana" title="Ana Beatriz">
+            </a>
         </div>
 
-        <div class="images2" id="auto">
-        <h2>Auto</h2>
-        <img title= "Audi S3" src="Images/Auto/IMG_9623.JPG">
-        <img title= "Civic Pikachu" src="Images/Auto/IMG_0133.JPG">
-        <img title= "Civic Pikachu" src="Images/Auto/IMG_0149.JPG">
-        <img title= "Civic Pikachu" src="Images/Auto/IMG_0108.JPG">
-        <img title= "Golf Mark 2" src="Images/Auto/IMG_7547.JPG" style="width: 40%;">
-        <img title= "Jante ADVAN RACING" src="Images/Auto/IMG_0111.JPG" style="width: 40%;">
-        <img title= "Audi S1" src="Images/Auto/IMG_8706.JPG" style="width: 40%;">
-        <img title= "Civic Pikachu" src="Images/Auto/IMG_0230.JPG" style="width: 40%;">
-        <img title= "Audi S1" src="Images/Auto/IMG_8678.JPG" style="width: 40%;">
-        <img title= "Audi S1" src="Images/Auto/IMG_8622.JPG" style="width: 40%;">
+        <div class="images2 section" id="auto">
+            <h2>Auto</h2>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_9623.JPG">
+                <img src="Images/Auto/IMG_9623.JPG" alt="Audi S3" title="Audi S3">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_0133.JPG">
+                <img src="Images/Auto/IMG_0133.JPG" alt="Civic Pikachu" title="Civic Pikachu">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_0149.JPG">
+                <img alt="Civic Pikachu" title="Civic Pikachu" src="Images/Auto/IMG_0149.JPG">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_0108.JPG">
+                <img alt="Civic Pikachu" title="Civic Pikachu" src="Images/Auto/IMG_0108.JPG">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_7547.JPG" style="width: 40%;">
+                <img alt="Golf Mark 2" title="Golf Mark 2" src="Images/Auto/IMG_7547.JPG">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_0111.JPG" style="width: 40%;">
+                <img alt="Jante ADVAN RACING" title="Jante ADVAN RACING" src="Images/Auto/IMG_0111.JPG">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_8706.JPG" style="width: 40%;">
+                <img alt="Audi S1" title="Audi S1" src="Images/Auto/IMG_8706.JPG">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_0230.JPG" style="width: 40%;">
+                <img alt="Civic Pikachu" title="Civic Pikachu" src="Images/Auto/IMG_0230.JPG">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_8678.JPG" style="width: 40%;">
+                <img alt="Audi S1" title="Audi S1" src="Images/Auto/IMG_8678.JPG">
+            </a>
+            <a data-fancybox="auto" class="boxElements" href="Images/Auto/IMG_8622.JPG" style="width: 40%;">
+                <img alt="Audi S1" title="Audi S1" src="Images/Auto/IMG_8622.JPG">
+            </a>
         </div>
-        
-        <div class="images3" id="paisagens">
-        <h2>Paisagens</h2>
-        <img title= "Sunset leaves" src="Images/Paisagens/DSC_2074.JPG">
-        <img title= "Curvy Road" src="Images/Paisagens/DSC_1842.JPG">
-        <img title= "OPorto" src="Images/Paisagens/IMG_9745.JPG">
-        <img title= "OPORTO" src="Images/Paisagens/IMG_9781.JPG">
+
+        <div class="images3 section" id="paisagens">
+            <h2>Paisagens</h2>
+
+            <a data-fancybox="paisagens" class="boxElements" href="Images/Paisagens/DSC_2074.JPG">
+                <img alt="Sunset leaves" title="Sunset leaves" src="Images/Paisagens/DSC_2074.JPG">
+            </a>
+            <a data-fancybox="paisagens" class="boxElements" href="Images/Paisagens/DSC_1842.JPG">
+                <img alt="Curvy Road" title="Curvy Road" src="Images/Paisagens/DSC_1842.JPG">
+            </a>
+            <a data-fancybox="paisagens" class="boxElements" href="Images/Paisagens/IMG_9745.JPG">
+                <img alt="OPorto" title="OPorto" src="Images/Paisagens/IMG_9745.JPG">
+            </a>
+            <a data-fancybox="paisagens" class="boxElements" href="Images/Paisagens/IMG_9781.JPG">
+                <img alt="OPORTO" title="OPORTO" src="Images/Paisagens/IMG_9781.JPG">
+            </a>
         </div>
-        
-        <div class="images4" id="projetos">
-        <h2>Projetos</h2>
-        <img title= "Vinho" src="Images/Projetos/Casa da soutosa.JPG">
-        <img title= "Razer"  src="Images/Projetos/DSC_1995.JPG">
-        <img title= "Nintendo" src="Images/Projetos/IMG_0901.JPG" style="width: 80%;">
-        <br/>
-        <img title= "Stars Trails" src="Images/Projetos/StarStaX_IMG_9297-IMG_9513_gap_filling.JPG">
-        <img title= "Stars Trails" src="Images/Projetos/IMG_9753 end.JPG">
+
+        <div class="images4 section" id="projetos">
+            <h2>Projetos</h2>
+
+            <a data-fancybox="projectos" href="Images/Projetos/Casa_da_soutosa.JPG">
+                <img alt="Vinho" title="Vinho" src="Images/Projetos/Casa_da_soutosa.JPG">
+            </a>
+            <a data-fancybox="projectos" href="Images/Projetos/DSC_1995.JPG">
+                <img alt="Razer" title="Razer"  src="Images/Projetos/DSC_1995.JPG">
+            </a>
+            <a data-fancybox="projectos" href="Images/Projetos/IMG_0901.JPG">
+                <img alt="Nintendo" title="Nintendo" src="Images/Projetos/IMG_0901.JPG" style="width: 80%;">
+            </a>
+            <br/>
+            <a data-fancybox="projectos" href="Images/Projetos/StarStaX_IMG_9297-IMG_9513_gap_filling.JPG">
+                <img alt="Stars Trails" title="Stars Trails" src="Images/Projetos/StarStaX_IMG_9297-IMG_9513_gap_filling.JPG">
+            </a>
+            <a data-fancybox="projectos" href="Images/Projetos/IMG_9753.JPG">
+                <img alt="Stars Trails" title="Stars Trails" src="Images/Projetos/IMG_9753.JPG">
+            </a>
         </div>
-    
+    </main>
+
     <footer>
-        <h1>Gonçalo Mendes Fotografia</h1>
-        <h2>Contactos</h2>
-    <p>Telemóvel: 910102036</p>
-    <p>E-mail: photos.1.mendes@gmail.com</p>
-    <p>© Copyright 2020 Gonçalo Mendes Fotografia</p>
+        <p>Telemóvel: <a href="tel:+351910102036">910 102 036</a></p>
+        <p>E-mail: <a href="mailto:photos.1.mendes@gmail.com">photos.1.mendes@gmail.com</a></p>
+        <p>© Copyright 2020 Gonçalo Mendes Fotografia</p>
+    </footer>
 
-    </footer>     
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script>
+        function scrollToSection(sectionName){
+            $('html, body').animate({
+                scrollTop: $(sectionName).offset().top
+            }, 600);
+        }
+    </script>
 </body>
-
 </html>
